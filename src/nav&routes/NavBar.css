@@ -1,0 +1,26 @@
+nav a.navbar-brand {
+    padding: 0;
+    margin: 20px;
+    color: black;
+    transition: font-size 0.75s, border-bottom 0.5s;
+}
+
+nav a.nav-item {
+    padding: 0;
+    margin: 20px;
+    color: black;
+    transition: font-size 0.75s, border-bottom 0.5s;
+}
+
+nav a.navbar-brand:hover{
+    color: black;
+    border-bottom: 4px dotted;
+    font-size: x-large;
+}
+
+nav a.nav-item:hover{
+    color: black;
+    border-bottom: 4px dotted;
+    font-size: larger;
+    cursor: pointer;
+}

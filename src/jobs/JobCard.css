@@ -1,0 +1,13 @@
+.JobCard {
+    text-align: left;
+    color: black;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.JobCard-button {
+    float: right;
+    margin-top: 15px;
+}

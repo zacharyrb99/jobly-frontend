@@ -1,0 +1,18 @@
+.Homepage {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    width: 35vw;
+    height: 25vh;
+    background-color: rgba(232, 232, 232, 0.6);
+    border-radius: 15px;
+}
+
+.Homepage-text {
+    padding: 20px;
+    margin-top: auto;
+}
+
+.btn {
+    margin: 1rem;
+}
