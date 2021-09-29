@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Front end is deployed on Surge:
+
+This is the [front-end application](https://zach-react-jobly-frontend.surge.sh/)
+
 ## Available Scripts
 
 In the project directory, you can run:
