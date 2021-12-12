@@ -1,74 +1,29 @@
-# Getting Started with Create React App
+# Link to deployed app: [Jobly](https://jobly-react-zach.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Link to backend: [Backend](https://github.com/zacharyrb99/react-jobly-backend)
 
-## Front end is deployed on Surge:
+## Features:
+This site allows you to search for companies and jobs to apply for.
 
-This is the [front-end application](https://zach-react-jobly-frontend.surge.sh/)
+1. Log in or sign up
+    - I chose to make the app require a user to log in to use most of its features. This simplified the applying feature for jobs. The only thing you will be able to do while anonymous is view the homepage. 
+2. Search companies or jobs.
+    - I set the search funtionality up to be able to allow users to search for a company/jobs based on company size, salary or equity.
+3. Apply to jobs
+    - This feature allows users to easily apply for a job they found interesting.
+4. Update user profile
+    - This will allow a user to change their name and email, and requires password authentication. User currently aren't able to change their username or password. Currently bugged, working on a fix now.
 
-## Available Scripts
+## Flow
+1. Create an account.
+2. Head to company search page.
+3. Search for company.
+4. Apply for jobs for that company.
 
-In the project directory, you can run:
+## Testing
+All the tests are located on the backend repo (linked above). Simply open this folder in your terminal and run `npm run test`
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tech Stack:
+- __Front-end__: React
+- __Back-end__: Nodejs, Express
+- __Database__: Postgresql
