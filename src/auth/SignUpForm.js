@@ -75,7 +75,7 @@ const SignUpForm = ({setToken}) => {
                     </div>
                     : null}
 
-                <Button className='SignUpForm-button' outline color='primary'>Login</Button>
+                <Button className='SignUpForm-button' outline color='primary'>Sign Up</Button>
             </Form>
         </div>
     )
