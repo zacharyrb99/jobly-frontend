@@ -1,5 +1,5 @@
 # Jobly frontend
-A responsive front end that utilizes my the jobly backend to allow you to search for and apply to jobs
+A responsive front end that utilizes my jobly backend to allow you to search for and apply to jobs
 
 ## Table of Contents
 - Requirements
