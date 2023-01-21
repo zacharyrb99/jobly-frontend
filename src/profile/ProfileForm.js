@@ -32,7 +32,7 @@ const ProfileForm = () => {
         e.preventDefault();
 
         let profileData = {
-            firstName: formData.firstname,
+            firstName: formData.firstName,
             lastName: formData.lastName,
             email: formData.email,
             password: formData.password
